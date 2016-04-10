@@ -46,7 +46,7 @@ The obvious next question is “how much memory do variables of different data t
 C++ guarantees that the basic data types will have a minimum size:
 
 
-| **Category** | **Type** | **Mininum Size** | **Note** |
+| **Category** | **Type** | **Minimum Size** | **Note** |
 |:-:|:-:|:-:|:-:|
 | boolean | bool | 1 byte | |
 | character | char | 1 byte | May be signed or unsigned |

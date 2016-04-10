@@ -88,7 +88,7 @@ New programmers sometimes get signed and unsigned mixed up. The following is a s
 
 |**Category**|**Type**|**Default Sign**|**Note**|
 |:-:|:-:|:-:|:-:|
-| character | char | Signed or Unsigned | Usally signed |
+| character | char | Signed or Unsigned | Usually signed |
 | integer | short | Signed | |
 |         | int | Signed | |
 |         | long | Signed | |

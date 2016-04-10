@@ -1,4 +1,4 @@
-# Installing an integrated developemnt environment ide
+# Installing an integrated development environment (IDE)
 
 As mentioned in the previous section, an Integrated Development Environment (IDE) contains all of the things you need to develop, compile, link, and debug your programs. So let’s install one.
 
@@ -39,7 +39,7 @@ Then check the box marked “Have g++ follow the C++11 ISO C++ language standard
 
 Alternately, some people prefer to use Bloodshed’s Dev-C++, which also runs on both Windows and Linux.
 
-## Mac OSX IDEs
+## Mac OS X IDEs
 
 Mac users can use [Xcode](https://developer.apple.com/xcode/) if it is available to you, or [Eclipse](http://www.eclipse.org/). Eclipse is not set up to use C++ by default, and you will need to install the optional C++ components.
 

@@ -1,6 +1,6 @@
 # 0.4 - Introduction to development
 
-BBefore we can write and execute our first program, we need to understand in more detail how C++ programs get developed. Here is a graphic outlining a simplistic approach:
+Before we can write and execute our first program, we need to understand in more detail how C++ programs get developed. Here is a graphic outlining a simplistic approach:
 
 ![](Development.png)
 

@@ -22,7 +22,7 @@ If you don't understand something, read through the comments. Other readers may 
 
 Before we get started, lets hit on a couple of important goals of these tutorials:
 
-- Cover programming topics as well as C++. Traditional textbooks do a pretty good job of teaching the basics of a given programming language, but they often do not cover relevant programming topics that are incidential to the language. For example, books will omit sections on programming style, common pitfalls, debugging, good/bad programming practices, and testing. Consequently, by the time you finish the book, you understand how to program in a language, but you have a ton of bad habits that will come back to bite you later! One of the goals of these tutorials is to make sure that all of these incidental topics are covered along the way, in the sections where it naturally make sense to discuss them. When you finish, you will not only know how to program in C++, you will know how NOT to program in C++, which is arguably as important.
+- Cover programming topics as well as C++. Traditional textbooks do a pretty good job of teaching the basics of a given programming language, but they often do not cover relevant programming topics that are incidental to the language. For example, books will omit sections on programming style, common pitfalls, debugging, good/bad programming practices, and testing. Consequently, by the time you finish the book, you understand how to program in a language, but you have a ton of bad habits that will come back to bite you later! One of the goals of these tutorials is to make sure that all of these incidental topics are covered along the way, in the sections where it naturally make sense to discuss them. When you finish, you will not only know how to program in C++, you will know how NOT to program in C++, which is arguably as important.
 
 - Provide a lot of examples. Most people learn as much from following the examples as they do from reading the text. This tutorial will endeavor to provide plenty of clear, concise examples to show how to apply the concepts you are learning. We will also avoid (as much as possible) the twin evils: the magic hand wave (also known as ...), where in the interest of space part of an example is omitted, and the unexplained new concept, where a new concept that is integral to the example is introduced without any mention of what it is or how it works. Both of these tend to lead to getting stuck.
 
@@ -43,7 +43,7 @@ As you go through these tutorials, we recommend a number of practices to maximiz
 
 - Write your own short programs using the concepts you have learned. Nothing is better than practice.
 
-- Learn to debug your programs when they don't work. We'll have more information on how to do this in a future lession.
+- Learn to debug your programs when they don't work. We'll have more information on how to do this in a future lesson.
 
 
 Note: The majority of the examples in the tutorials are full programs that you can compile and run yourself. However, occasionally the examples will be "snippets" of code that are designed to quickly illustrate a concept. Because these aren't full programs, they won't compile without some additional work. You can turn these into full programs yourself, if you desire.

@@ -4,7 +4,7 @@ A computer program is a sequence of instructions that tell the computer what to 
 
 ## Statements and expressions
 
-The most common type of instruction in a program is the **statement**. A statement in C++ is the smallest independent unit in the language. In human language, it is analogous to a sentence. We write sentences in order to convery an idea. In c++, we write statements in order to convery to the compiler that we want to perform a task. **Statements in C++ are terminated by a semicolon.**
+The most common type of instruction in a program is the **statement**. A statement in C++ is the smallest independent unit in the language. In human language, it is analogous to a sentence. We write sentences in order to convey an idea. In C++, we write statements in order to convey to the compiler that we want to perform a task. **Statements in C++ are terminated by a semicolon.**
 
 There are many different kinds of statements in C++. The following are some of the most common types of simple statements:
 
@@ -109,7 +109,7 @@ The following quiz is meant to reinforce your understanding of the material pres
 
 ## Quiz Answers
 
-1. A statement is a "complete sentence" that tells the compiler to perform a particular task. An expression is a mathermatical entity that evaluates to a value. Expressions are often used inside of statements.
+1. A statement is a "complete sentence" that tells the compiler to perform a particular task. An expression is a mathematical entity that evaluates to a value. Expressions are often used inside of statements.
 
 2. A function is a collection of statements that executes sequentially, typically designed to perform a specific job. A library is a collection of functions packaged for use in multiple programs.
 

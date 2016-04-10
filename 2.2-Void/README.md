@@ -26,7 +26,7 @@ int getValue(void) // void here means no parameters
 }
 ```
 
-The explicit use of keyword void to mean "no parameters" is a holdover from C, and is not required in C++. The following code is equaivalent, and preferred in C++:
+The explicit use of keyword void to mean "no parameters" is a holdover from C, and is not required in C++. The following code is equivalent, and preferred in C++:
 
 ```
 int getValue() // empty function parameters is an implicit void

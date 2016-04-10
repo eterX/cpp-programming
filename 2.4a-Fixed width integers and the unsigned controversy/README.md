@@ -4,7 +4,7 @@ In the previous lesson 2.4 -- Integers you learned that C++ only guarantees that
 
 ## Why isn't the size of the integer variables fixed?
 
-The short, non-technical anwser is that this goes back to C, when performance was of utmost concern. C opted to intentionally leave the size of an integer open so that the compiler implementers could pick a size for int that performs best on the target computer architecture.
+The short, non-technical answer is that this goes back to C, when performance was of utmost concern. C opted to intentionally leave the size of an integer open so that the compiler implementers could pick a size for int that performs best on the target computer architecture.
 
 ## Doesn't this suck ?
 
@@ -25,7 +25,7 @@ To help with cross-platform portability, C99 defined a set of fixed-width intege
 | int64_t	| 8 byte signed	| -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 |
 | uint64_t	| 8 byte unsigned	| 0 to 18,446,744,073,709,551,615 |
 
-C++ officaially adopted these fixed-width integers as part of C++11. They can be accessed by including the **cstdint** header. Here's an example:
+C++ officially adopted these fixed-width integers as part of C++11. They can be accessed by including the **cstdint** header. Here's an example:
 
 ```
 #include <iostream>
@@ -39,7 +39,7 @@ int main()
 }
 ```
 
-Even though these weren't adopted in C++ util C++11, because they were part of the C99 standard, some older C++ compilers offer access to these types, typicallly by including **stdint.h**. Visual Studio 2005 and 2008 do not incldue **stdint.h**, but 2010 does.
+Even though these weren't adopted in C++ util C++11, because they were part of the C99 standard, some older C++ compilers offer access to these types, typically by including **stdint.h**. Visual Studio 2005 and 2008 do not include **stdint.h**, but 2010 does.
 
 If you are using the boost library, boost provides these as part of <boost/cstdint.hpp>
 
