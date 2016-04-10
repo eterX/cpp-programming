@@ -286,7 +286,7 @@ First part        Second part
 Here’s a table of all of the escape sequences:
 
 | **Name** | **Symbol** | **Meaning** |
-|-:-|-:-|-:-|
+|:-:|:-:|:-:|
 | Alert | \a | Makes an alert, such as a beep |
 | Backspace | \b | Moves the cursor back one space |
 | Formfeed | \f | Moves the cursor to next logical page |

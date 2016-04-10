@@ -15,7 +15,7 @@ Yes! As a programmer, it's a little ridiculous to have to deal with variables wh
 To help with cross-platform portability, C99 defined a set of fixed-width integers (int the **stdint.h** header) that are guaranteed to have the same size on any architecture. These are defined as follows?
 
 | **Name** |	**Type** | **Range** |
-|-:-|-:-|-:-|
+|:-:|:-:|:-:|
 | int8_t	| 1 byte signed	| -128 to 127 |
 | uint8_t	| 1 byte unsigned	| 0 to 255 |
 | int16_t	| 2 byte signed	| -32,768 to 32,767 |

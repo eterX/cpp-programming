@@ -3,7 +3,7 @@
 An integer type (sometimes called an integral type) variable is a variable that can only hold non-fractional numbers (e.g. -2, -1, 0, 1, 2). C++ has five different fundamental integer types available for use:
 
 | **Category** | **Type** | **Minimum Size**| **Note** |
-|-:-|-:-|-:-|-:-|
+|:-:|:-:|:-:|:-:|
 | character | char | 1 bytes | |
 | integer | short | 2 bytes | |
 | | int | 2 bytes | Typically 4 bytes on modern architecture |
@@ -72,7 +72,7 @@ Note that declaring a variable as unsigned means that it can not store negative 
 Now that you understand the difference between signed and unsigned, let’s take a look at the ranges for different sized signed and unsigned variables:
 
 | **Size/Type** | **Range** |
-|-:-|-:-|
+|:-:|:-:|
 | 1 byte signed | -128 to 127 |
 | 1 byte unsigned | 0 to 255 |
 | 2 byte signed | -32,768 to 32,767 |
@@ -87,7 +87,7 @@ New programmers sometimes get signed and unsigned mixed up. The following is a s
 ## Default signs and integer best practices
 
 |**Category**|**Type**|**Default Sign**|**Note**|
-|-:-|-:-|-:-|-:-|
+|:-:|:-:|:-:|:-:|
 | character | char | Signed or Unsigned | Usally signed |
 | integer | short | Signed | |
 |         | int | Signed | |
@@ -112,7 +112,7 @@ In lesson 2.1 -- Basic addressing and variable declaration, we mentioned that da
 In binary (base 2), each digit can only have 2 possible values (0 or 1). We count from 0 to 15 like this:
 
 | **Decimal Value** | **	Binary Value **|
-|-:-|-:-|
+|:-:|:-:|
 | 0	| 0 |
 | 1	| 1 |
 | 2	| 10 |
@@ -141,7 +141,7 @@ But what happens if we try to assign a value that takes more than 4 bits to our 
 For example, if we tried to put the decimal value 21 in our 4-bit variable:
 
 | **Decimal Value** |	**Binary Value** |
-|-:-|-:-|
+|:-:|:-:|
 | 21 | 10101 |
 
 21 takes 5 bits (10101) to represent. The 4 rightmost bits (0101) go into the variable, and the leftmost (1) is simply lost. Our variable now holds 0101, which is the decimal value 5.
