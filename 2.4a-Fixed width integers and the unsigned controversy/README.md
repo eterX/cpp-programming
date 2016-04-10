@@ -39,7 +39,7 @@ int main()
 }
 ```
 
-Even though these weren't adopted in C++ util C++ 11, because they were part of the C99 standard, some older C++ compilers offer access to these types, typicallly by including **stdint.h**. Visual Studio 2005 and 2008 do not incldue **stdint.h**, but 2010 does.
+Even though these weren't adopted in C++ util C++11, because they were part of the C99 standard, some older C++ compilers offer access to these types, typicallly by including **stdint.h**. Visual Studio 2005 and 2008 do not incldue **stdint.h**, but 2010 does.
 
 If you are using the boost library, boost provides these as part of <boost/cstdint.hpp>
 

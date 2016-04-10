@@ -51,8 +51,8 @@ C++ guarantees that the basic data types will have a minimum size:
 | boolean | bool | 1 byte | |
 | character | char | 1 byte | May be signed or unsigned |
 | | wchar_t | 1 byte | |
-| | char16_t | 2 bytes | C++ 11 type |
-| | char32_t | 4 bytes | C++ 11 type |
+| | char16_t | 2 bytes | C++11 type |
+| | char32_t | 4 bytes | C++11 type |
 | integer | short | 2 bytes | |
 | | int | 2 bytes | |
 | | long | 4 bytes | |

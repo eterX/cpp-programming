@@ -4,13 +4,13 @@
 
 C++ reserves a set of 73 words for its own use. These words are called **keyword**, and each of these keywords has a special meaning within the C++ language.
 
-Here is a list of all the C++ keywords (through C++ 11):
+Here is a list of all the C++ keywords (through C++11):
 
 ![](keyword.png)
 
-\* These 15 keywords were added in C++ 98. Some older reference books or material may omit these.
+\* These 15 keywords were added in C++98. Some older reference books or material may omit these.
 
-\*\* These 9 keywords were added in C++ 11, If your compiler is not C++ 11 compliant, these keywords may not be functional.
+\*\* These 9 keywords were added in C++11, If your compiler is not C++11 compliant, these keywords may not be functional.
 
 You have already run across some of these keywords, including int, void, return, using, and namespace. Along with a set of operators, these keywords define the entire language of C++ (preprocessor commands excluded). Because these keywords have special meaning, your IDEs will change the text color of these words (usually to blue) to make them more visible.
 

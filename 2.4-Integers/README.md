@@ -8,7 +8,7 @@ An integer type (sometimes called an integral type) variable is a variable that 
 | integer | short | 2 bytes | |
 | | int | 2 bytes | Typically 4 bytes on modern architecture |
 | | long | 4 bytes |  |
-| | long long | 8 bytes | C99/C++ 11 type|
+| | long long | 8 bytes | C99/C++11 type|
 
 
 Char is a special case, in that it falls into both the character and integer categories. We’ll talk about the special properties of char later. In this lesson, you can treat it as a normal integer.
