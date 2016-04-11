@@ -286,12 +286,12 @@ First part        Second part
 Here’s a table of all of the escape sequences:
 
 | **Name** | **Symbol** | **Meaning** |
-|-:-|-:-|-:-|
+|:-:|:-:|:-:|
 | Alert | \a | Makes an alert, such as a beep |
 | Backspace | \b | Moves the cursor back one space |
-| Formfeed | \f | Moves the cursor to next logical page |
+| Form feed | \f | Moves the cursor to next logical page |
 | Newline | \n | Moves cursor to next line |
-| Carriage return | \r | Moves cursor to the begining of line |
+| Carriage return | \r | Moves cursor to the beginning of line |
 | Horizontal tab | \t | Prints a horizontal tab |
 | Vertical tab | \v | Prints a vertical tab |
 | Single quote | \' | Prints a single quote |
@@ -323,7 +323,7 @@ This string contains a single backslash \
 6F in hex is char 'o'
 
 
-## Newline(\n) vs std::endl -- which should you use ?
+## Newline (\n) vs std::endl -- which should you use ?
 
 You may have noticed in the last example that we can use \n to move the cursor to the next line, which appears to duplicate the functionality of std::endl. However, they are slightly different.
 

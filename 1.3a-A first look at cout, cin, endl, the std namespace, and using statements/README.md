@@ -132,7 +132,7 @@ One way to tell the compiler that cout lives in the std namespace is by using th
 std::cout << "Hello world!";
 ```
 
-This is the safest way to use cout, because there's no ambigulity about where cout lives(it's clearly in the std namespace)
+This is the safest way to use cout, because there's no ambiguity about where cout lives(it's clearly in the std namespace)
 
 
 However, if you're using the standard library a lot, typing "std::" before everything you use from the standard library can become repetitive and make things hard to read. C++ provides two alternatives to simplify things.
@@ -239,6 +239,6 @@ Many people avoid "using directives" altogether for this reason. Others find the
 
 ## A note on using statements
 
-In the examples beyond this page, we'll generally use the explicit qualifier method, though in certain cases, we'll opt to use "using directives" within functions when it improves readability. It is up to whether you want to follow this practice yourself, or avoid "using" staements altogether.
+In the examples beyond this page, we'll generally use the explicit qualifier method, though in certain cases, we'll opt to use "using directives" within functions when it improves readability. It is up to whether you want to follow this practice yourself, or avoid "using" statements altogether.
 
 In either case, you should avoid "using" statements outside of a function body.

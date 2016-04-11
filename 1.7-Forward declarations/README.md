@@ -61,7 +61,7 @@ That way, by the time main() calls add(), the compiler will already know what ad
 
 Furthermore, this option is not always possible. Let’s say we’re writing a program that has two functions A and B. If function A calls function B, and function B calls function A, then there’s no way to order the functions in a way that they will both be happy. If you define A first, the compiler will complain it doesn’t know what B is. If you define B first, the compiler will complain that it doesn’t know what A is.
 
-## Funcion prototypes and forward declaration functions
+## Function prototypes and forward declaration functions
 
 Option 2: Use a forward declaration.
 

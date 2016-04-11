@@ -11,7 +11,7 @@ First, the more memory a variable takes up, the more information it can hold. Be
 2 bits can hold 4 possible values:
 
 | ** bit 0 ** | ** bit 1 ** |
-|-:-|-:-|
+|:-:|:-:|
 | 0 | 0 |
 | 0 | 1 |
 | 1 | 0 |
@@ -21,7 +21,7 @@ First, the more memory a variable takes up, the more information it can hold. Be
 3 bits can hold 8 possible values:
 
 | ** bit 0 ** | ** bit 1 ** | ** bit 2 ** |
-|-:-|-:-|-:-|
+|:-:|:-:|:-:|
 | 0 | 0 | 0 |
 | 0 | 0 | 1 |
 | 0 | 1 | 0 |
@@ -46,13 +46,13 @@ The obvious next question is “how much memory do variables of different data t
 C++ guarantees that the basic data types will have a minimum size:
 
 
-| **Category** | **Type** | **Mininum Size** | **Note** |
-|-:-|-:-|-:-|-:-|
+| **Category** | **Type** | **Minimum Size** | **Note** |
+|:-:|:-:|:-:|:-:|
 | boolean | bool | 1 byte | |
 | character | char | 1 byte | May be signed or unsigned |
 | | wchar_t | 1 byte | |
-| | char16_t | 2 bytes | C++ 11 type |
-| | char32_t | 4 bytes | C++ 11 type |
+| | char16_t | 2 bytes | C++11 type |
+| | char32_t | 4 bytes | C++11 type |
 | integer | short | 2 bytes | |
 | | int | 2 bytes | |
 | | long | 4 bytes | |
