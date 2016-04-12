@@ -21,7 +21,7 @@ int main()
 
 Literals, variables, and functions are all known as operands. Operands supply the data that the expression works with. We just introduced literals, which evaluate to themselves. Variables evaluate to the values they hold. Functions evaluate to produce a value of the function’s return type (unless the return type is void).
 
-## Operaors
+## Operators
 
 The last piece of the expressions puzzle is operators. Operators tell the expression how to combine one or more operands to produce a new result. For example, in the expression “3 + 4”, the + is the plus operator. The + operator tells how to combine the operands 3 and 4 to produce a new value (7).
 

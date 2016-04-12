@@ -4,13 +4,13 @@
 
 C++ reserves a set of 73 words for its own use. These words are called **keyword**, and each of these keywords has a special meaning within the C++ language.
 
-Here is a list of all the C++ keywords (through C++ 11):
+Here is a list of all the C++ keywords (through C++11):
 
 ![](keyword.png)
 
-\* These 15 keywords were added in C++ 98. Some older reference books or material may omit these.
+\* These 15 keywords were added in C++98. Some older reference books or material may omit these.
 
-\*\* These 9 keywords were added in C++ 11, If your compiler is not C++ 11 compliant, these keywords may not be functional.
+\*\* These 9 keywords were added in C++11. If your compiler is not C++11 compliant, these keywords may not be functional.
 
 You have already run across some of these keywords, including int, void, return, using, and namespace. Along with a set of operators, these keywords define the entire language of C++ (preprocessor commands excluded). Because these keywords have special meaning, your IDEs will change the text color of these words (usually to blue) to make them more visible.
 
@@ -59,7 +59,7 @@ Third, and this is perhaps the most important rule of all, give your identifiers
 
 ![](naming.png)
 
-\* Note: it is okay to use trivial variable names for variables that have a trivial use, such as loop variables, or trivial mathermatical functions.
+\* Note: it is okay to use trivial variable names for variables that have a trivial use, such as loop variables, or trivial mathematical functions.
 
 Fourth, a clarifying comment can go a long way. For example, say we’ve declared a variable named numberOfChars that is supposed to store the number of characters in a piece of text. Does the text “Hello World!” have 10, 11, or 12 characters? It depends on whether we’re including whitespace or punctuation. Rather than naming the variable numberOfCharsIncludingWhitespaceAndPunctuation, which is rather lengthy, a well placed comment on the declaration line should help the user figure it out:
 
@@ -71,7 +71,7 @@ int numberOfChars;
 
 ## Quiz
 
-Pick which variables are improperly named according to standard coventions (ie. how you should name a variable) and indicate why.
+Pick which variables are improperly named according to standard conventions (i.e. how you should name a variable) and indicate why.
 
 1) int sum;
 2) int _apples;

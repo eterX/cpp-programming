@@ -128,7 +128,7 @@ Fortunately, most modern compilers will print warnings at compile-time if they c
 c:vc2005projectstesttesttest.cpp(11) : warning C4700: uninitialized local variable 'x' used
 ```
 
-A good rule of thumb is to initialize your vriables. This ensure that your variable will always have a consistent value, making it easier to debug if something goes wrong somewhere else.
+A good rule of thumb is to initialize your variables. This ensure that your variable will always have a consistent value, making it easier to debug if something goes wrong somewhere else.
 
 ## Quiz
 

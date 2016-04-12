@@ -2,7 +2,7 @@
 
 ## Function parameters and arguments
 
-In the previous lesson, you learned that a function can reutrn a value back to the caller via the function's return value.
+In the previous lesson, you learned that a function can return a value back to the caller via the function's return value.
 
 In many cases, it is useful to be able to pass information to a function being called, so that the function has data to work with. For example, if we wanted to write a function to add two numbers, we need a way to tell the function which two numbers to add when we call it. Otherwise, how would the function know what to add? We do that via function parameters and arguments.
 

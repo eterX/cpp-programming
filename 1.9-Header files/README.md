@@ -26,7 +26,7 @@ Keep in mind that header files typically only contain declarations. They do not 
 
 ![](IncludeLibrary.png)
 
-Consider what would happen if the iostream header did not exist. Whenever you used std::cout, you would have to manually copy in all of the declarations related to std::cout into the top of each file that used it! This would require knownledge of what's relevant and what's not. It's much easier to just ```#include iostream``` !
+Consider what would happen if the iostream header did not exist. Whenever you used std::cout, you would have to manually copy in all of the declarations related to std::cout into the top of each file that used it! This would require knowledge of what's relevant and what's not. It's much easier to just ```#include iostream``` !
 
 
 ## Writing your own header files

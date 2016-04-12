@@ -18,7 +18,7 @@ std::cout << "It is very nice to meet you!" << std::endl; // these comments make
 std::cout << "Yeah!" << std::endl; // especially when lines are different lengths
 ```
 
-Having comments to the right of a line can make both the code and the comment hard to read, particulrly if the line is long. Consequently, the // comemnt is often placed above the line it is commenting.
+Having comments to the right of a line can make both the code and the comment hard to read, particularly if the line is long. Consequently, the // comment is often placed above the line it is commenting.
 
 ```
 // cout and endl live in the iostream library
@@ -86,7 +86,7 @@ Second, within the library, program, or function described above, comments can b
 // 5) Return the appropriate item
 ```
 
-These comments give the user an idea of how the code is going to accomplish it's oal without going into too much detail.
+These comments give the user an idea of how the code is going to accomplish it's goal without going into too much detail.
 
 At the statement level, comments should be used to describe why the code is doing something. A bad statement comment explains what the code is doing. If you ever write code that is so complex that needs a comment to explain what a statement is doing, you probably need to rewrite your statement, not comment it.
 

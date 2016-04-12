@@ -3,7 +3,7 @@
 
 ## What is a string ?
 
-The very first C++ program you wrote probably looked somethong like this:
+The very first C++ program you wrote probably looked something like this:
 
 ```
 #include <iostream>
@@ -93,7 +93,7 @@ Enter your full name: John Doe
 Enter your age: 23
 Your name is John and your age is Doe
 
-Hmmm, that isn't right! What happend? It turns out that when using operator >> to extract a string from cin, operator >> only returns characters up to the first whitespace it encounters. Any other characters are left inside cin, waiting for the next extraction.
+Hmmm, that isn't right! What happened? It turns out that when using operator >> to extract a string from cin, operator >> only returns characters up to the first whitespace it encounters. Any other characters are left inside cin, waiting for the next extraction.
 
 So when we used operator >> to extract a string into variable name, only "John" was extracted, leaving "Doe" inside std::cin, waiting for the next extraction. When we used operator >> again to extract a string into variable age, we got "Doe" instead of "23". If we had done a third extraction, we would have gotten "23".
 
@@ -153,9 +153,9 @@ int main()
 }
 ```
 
-Perhaps surprisingly, when you run this program, it will ask you to pick 1 or 2, but then skip asking for your name! Why happended?
+Perhaps surprisingly, when you run this program, it will ask you to pick 1 or 2, but then skip asking for your name! Why happened?
 
-It turns out, when you enter a numeric value using cin, cin not only captures the numeric value, it also captures the newline. So when we enter 2, cin actally gets the string "2\n". It then extracts the 2 to variable choice, leaving the newline stuck in the input stream. Then, when std::getline goes to read the name, it sees "\n" is already in the stream, and figures we must have entered an empty string! Definitely not what was intended.
+It turns out, when you enter a numeric value using cin, cin not only captures the numeric value, it also captures the newline. So when we enter 2, cin actually gets the string "2\n". It then extracts the 2 to variable choice, leaving the newline stuck in the input stream. Then, when std::getline goes to read the name, it sees "\n" is already in the stream, and figures we must have entered an empty string! Definitely not what was intended.
 
 A good rule of thumb is that after reading a numeric value with std::cin, remove the newline from the stream. This can be done using the following:
 
